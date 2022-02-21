@@ -1,0 +1,75 @@
+.image-container {
+  height: 48px;
+}
+
+.back-button svg {
+  height: 40px;
+  margin: 10px;
+}
+
+.back-button:hover svg {
+  height: 42px;
+}
+
+h1 {
+  font-size: 48px;
+  font-family: "system-ui";
+  text-align: center;
+}
+
+.upload-form {
+  text-align: center;
+}
+
+.upload-label {
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 7px;
+  font-size: 20px;
+  width: 140px;
+}
+
+.upload-label:hover {
+  background-color: #eeeeee;
+  font-size: 22px;
+}
+
+.upload-button {
+  font-family: system-ui;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-size: 20px;
+  background-color: white;
+  width: 140px;
+}
+
+.upload-button:hover {
+  background-color: #eeeeee !important;
+  font-size: 22px;
+}
+
+table {
+  width: 100%;
+  margin-bottom: 20px;
+  border: 1px solid #dddddd;
+  border-collapse: collapse;
+}
+table th {
+  font-weight: bold;
+  padding: 5px;
+  background: #efefef;
+  border: 1px solid #dddddd;
+}
+table td {
+  border: 1px solid #dddddd;
+  padding: 5px;
+}
+
+table td.action {
+  text-align: center;
+}

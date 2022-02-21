@@ -1,0 +1,18 @@
+
+<%# <%= render "form", appmap: @appmap %1> %>
+
+<br>
+
+<div class="image-container">
+  <%= link_to inline_svg("back-button.svg"), appmaps_path, class: "back-button" %>
+</div>
+
+<h1>Select a folder!</h1>
+
+<div class="upload-form">
+  <%= form_for(@appmap, html: { multipart: true }) do |f| %>
+    <%= f.label :file, "Select Files", class: "upload-label" %>
+    <%= f.file_field :file, accept: 'application/json', hidden: true, multiple: true %>
+    <%= f.submit 'Submit!', class: "upload-button" %>
+  <% end %>
+</div>

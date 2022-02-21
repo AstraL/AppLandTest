@@ -1,0 +1,19 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Appmaps</h1>
+
+<div id="appmaps">
+  <table>
+    <tr>
+      <th>Path</th>
+      <th>Actions<th>
+    </tr>
+
+    <% @appmaps.each do |appmap| %>
+      <tr>
+        <td class="path"> <%= appmap.path %> </td>
+        <td class="action"> <%= link_to "Show this appmap", appmap %> </td>
+      </tr>
+    <% end %>
+  </table>
+</div>
